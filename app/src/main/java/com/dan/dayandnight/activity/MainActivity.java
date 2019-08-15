@@ -44,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
         initView();
         initVersionData();
         checkVersionGet(null);
-
     }
 
     /***
@@ -63,7 +62,6 @@ public class MainActivity extends AppCompatActivity {
      */
     public String getAppVersionName(Context context) {
         try {
-
             // ---get the package info---
             PackageManager pm = context.getPackageManager();
             PackageInfo pi = pm.getPackageInfo(context.getPackageName(), 0);
