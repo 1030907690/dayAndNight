@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">dayAndNight</string>
+    <string name="update_but_str">立即升级</string>
+
 </resources>
