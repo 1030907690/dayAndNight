@@ -13,10 +13,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.alipay.sdk.app.PayTask;
 import com.dan.dayandnight.R;
-import com.dan.dayandnight.dialog.UpdataDialog;
 
 import java.util.Map;
 
+/***
+ * 支付宝支付
+ * */
 public class AliPaySimpleActivity extends AppCompatActivity {
 
 
