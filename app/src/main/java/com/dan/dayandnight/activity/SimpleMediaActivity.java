@@ -1,3 +1,4 @@
+/*
 package com.dan.dayandnight.activity;
 
 import android.os.Bundle;
@@ -49,7 +50,7 @@ public class SimpleMediaActivity extends AppCompatActivity   implements View.OnC
         initView();
 
     }
-    private String mUriTwo = "http://streams.wshunli.com/videos/dyys2_x264.mp4";
+    private String mUriTwo = "https://youku.rebo5566.com/20190808/QCgZI4gD/index.m3u8";
 
     private void initView() {
         mButtonone =(Button)findViewById(R.id.buttonOne);
@@ -103,10 +104,12 @@ public class SimpleMediaActivity extends AppCompatActivity   implements View.OnC
 
      }
 
-     /**
+     */
+/**
       * 当异步开启后 执行这个方法
       * @param iMediaPlayer
-      */
+      *//*
+
      @Override
      public void onPrepared(IMediaPlayer iMediaPlayer) {
 
@@ -198,3 +201,4 @@ public class SimpleMediaActivity extends AppCompatActivity   implements View.OnC
          super.onDestroy();
      }
  }
+*/

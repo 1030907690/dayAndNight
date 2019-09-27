@@ -32,9 +32,13 @@ dependencies {
     // fastjson
     implementation 'com.alibaba:fastjson:1.1.70.android'
 
+    //alipay
+    compile (name: 'alipaySdk-15.6.5-20190718211159-noUtdid', ext: 'aar')
+
+
     /*
     // required, enough for most devices.
-    compile 'tv.danmaku.ijk.media:ijkplayer-java:0.6.2'
+    compile 'tv.danmaku.ijk.media:ijkplayer-java:0.6repositories.2'
     compile 'tv.danmaku.ijk.media:ijkplayer-armv7a:0.6.2'
 
     // Other ABIs: optional
@@ -46,5 +50,5 @@ dependencies {
     // ExoPlayer as IMediaPlayer: optional, experimental
     compile 'tv.danmaku.ijk.media:ijkplayer-exo:0.6.2'
     */
-    implementation project(':ijkplayer-java')
+  //  implementation project(':ijkplayer-java')
 }
